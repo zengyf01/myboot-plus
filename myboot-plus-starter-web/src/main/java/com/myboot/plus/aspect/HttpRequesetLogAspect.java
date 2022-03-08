@@ -21,7 +21,7 @@ import java.util.Arrays;
 @Component
 public class HttpRequesetLogAspect {
 
-    @Pointcut("execution(public * *..contraoller..*(..))")
+    @Pointcut("execution(public * *..controller..*(..))")
     public void logAspect(){};
 
     @Before(value = "logAspect()")
