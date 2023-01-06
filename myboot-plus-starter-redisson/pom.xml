@@ -18,12 +18,24 @@
 	</properties>
 
 	<dependencies>
+
 		<!-- 导入 redission 依赖 -->
 		<dependency>
 			<groupId>org.redisson</groupId>
 			<artifactId>redisson-spring-boot-starter</artifactId>
 			<version>3.19.0</version>
 		</dependency>
+
+
+		<!-- aop 依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+			<version>${spring.boot.version}</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 
