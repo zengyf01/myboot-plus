@@ -1,0 +1,6 @@
+com/myboot/plus/redisson/autoconfiguration/RedissonAutoConfig.class
+com/myboot/plus/redisson/config/ObtainModelInterface.class
+com/myboot/plus/redisson/config/MasterSlaveModelConfig.class
+com/myboot/plus/redisson/config/SingleModelConfig.class
+com/myboot/plus/redisson/config/SentinelModelConfig.class
+com/myboot/plus/redisson/config/ClusterModelConfig.class

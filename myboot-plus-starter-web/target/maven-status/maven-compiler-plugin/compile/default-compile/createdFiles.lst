@@ -1,0 +1,3 @@
+com/myboot/plus/aspect/HttpRequesetLogAspect.class
+com/myboot/plus/autoconfiguration/LogAspectAutoConfiguration.class
+com/myboot/plus/autoconfiguration/aaa.class

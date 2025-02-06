@@ -1,0 +1,6 @@
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/config/ClusterModelConfig.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/config/SingleModelConfig.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/config/MasterSlaveModelConfig.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/autoconfiguration/RedissonAutoConfig.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/config/SentinelModelConfig.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-redisson/src/main/java/com/myboot/plus/redisson/config/ObtainModelInterface.java
