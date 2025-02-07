@@ -1,3 +1,7 @@
-com/myboot/plus/aspect/HttpRequesetLogAspect.class
 com/myboot/plus/autoconfiguration/LogAspectAutoConfiguration.class
-com/myboot/plus/autoconfiguration/aaa.class
+com/myboot/plus/response/StringConvoter.class
+com/myboot/plus/autoconfiguration/HttpMessageConverterConfiguration.class
+com/myboot/plus/response/SetWebMvcConfigurer.class
+com/myboot/plus/response/ResponseDTO.class
+com/myboot/plus/response/EntityResponseConverter.class
+com/myboot/plus/log/HttpRequesetLogAspect.class

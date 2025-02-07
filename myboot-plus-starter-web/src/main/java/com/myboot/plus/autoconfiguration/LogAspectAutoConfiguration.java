@@ -1,6 +1,6 @@
 package com.myboot.plus.autoconfiguration;
 
-import com.myboot.plus.aspect.HttpRequesetLogAspect;
+import com.myboot.plus.log.HttpRequesetLogAspect;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 

@@ -1,3 +1,6 @@
-/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/autoconfiguration/aaa.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/response/SetWebMvcConfigurer.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/response/StringConvoter.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/log/HttpRequesetLogAspect.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/response/ResponseDTO.java
 /Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/autoconfiguration/LogAspectAutoConfiguration.java
-/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/aspect/HttpRequesetLogAspect.java
+/Users/zyf/Documents/project/my/myboot-plus/myboot-plus-starter-web/src/main/java/com/myboot/plus/response/EntityResponseConverter.java

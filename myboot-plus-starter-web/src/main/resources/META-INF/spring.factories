@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\com.myboot.plus.autoconfiguration.LogAspectAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.myboot.plus.autoconfiguration.LogAspectAutoConfiguration,\
+  com.myboot.plus.autoconfiguration.HttpMessageConverterConfiguration
