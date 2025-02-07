@@ -19,7 +19,7 @@ import java.util.List;
  * @Date: 2025/2/7 11:27
  * @Description: TODO
  */
-public class EntityResponseConverter extends AbstractGenericHttpMessageConverter<Object> {
+public class Entity2ResponseConverter extends AbstractGenericHttpMessageConverter<Object> {
 
 
     @Override

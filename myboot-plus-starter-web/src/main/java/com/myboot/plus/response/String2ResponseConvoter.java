@@ -18,7 +18,7 @@ import java.util.List;
  * @Date: 2025/2/7 09:20
  * @Description: TODO
  */
-public class StringConvoter implements HttpMessageConverter {
+public class String2ResponseConvoter implements HttpMessageConverter {
     @Override
     public boolean canRead(Class aClass, MediaType mediaType) {
         return false;

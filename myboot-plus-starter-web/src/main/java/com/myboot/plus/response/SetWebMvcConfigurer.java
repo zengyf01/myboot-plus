@@ -17,7 +17,7 @@ public class SetWebMvcConfigurer implements WebMvcConfigurer {
     @Override
     public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
         WebMvcConfigurer.super.extendMessageConverters(converters);
-        converters.add(0,new StringConvoter());
-        converters.add(1,new EntityResponseConverter());
+        converters.add(0,new String2ResponseConvoter());
+        converters.add(1,new Entity2ResponseConverter());
     }
 }

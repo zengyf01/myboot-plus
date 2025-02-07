@@ -1,7 +1,7 @@
 package com.myboot.plus.autoconfiguration;
 
-import com.myboot.plus.response.EntityResponseConverter;
-import com.myboot.plus.response.StringConvoter;
+import com.myboot.plus.response.Entity2ResponseConverter;
+import com.myboot.plus.response.String2ResponseConvoter;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -22,8 +22,8 @@ public class HttpMessageConverterConfiguration {
     @Bean
     @ConditionalOnMissingBean
     @ConditionalOnProperty(name = "myboot.entity2response.enabled", havingValue = "true", matchIfMissing = true)
-    public EntityResponseConverter entityResponseConverter() {
-        return new EntityResponseConverter();
+    public Entity2ResponseConverter entityResponseConverter() {
+        return new Entity2ResponseConverter();
     }
 
     /**
@@ -33,7 +33,7 @@ public class HttpMessageConverterConfiguration {
     @Bean
     @ConditionalOnMissingBean
     @ConditionalOnProperty(name = "myboot.string2response.enabled", havingValue = "true", matchIfMissing = true)
-    public StringConvoter stringConvoter() {
-        return new StringConvoter();
+    public String2ResponseConvoter stringConvoter() {
+        return new String2ResponseConvoter();
     }
 }
