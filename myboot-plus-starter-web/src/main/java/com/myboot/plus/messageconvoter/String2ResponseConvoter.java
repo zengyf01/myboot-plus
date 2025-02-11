@@ -1,4 +1,4 @@
-package com.myboot.plus.response;
+package com.myboot.plus.messageconvoter;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

@@ -1,4 +1,4 @@
-package com.myboot.plus.response;
+package com.myboot.plus.messageconvoter;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -29,9 +29,18 @@ public class Entity2ResponseConverter extends AbstractGenericHttpMessageConverte
 
     @Override
     protected void writeInternal(Object object, Type type, HttpOutputMessage httpOutputMessage) throws IOException, HttpMessageNotWritableException {
+
         JSONObject json = new JSONObject();
-        json.put("data", JSON.toJSONString(object));
-        json.put("code", 200);
+        if (object instanceof ResponseDTO) {
+            ResponseDTO responseDTO = (ResponseDTO) object;
+            json.put("code", responseDTO.getCode());
+            json.put("data", JSON.toJSONString(responseDTO.getData()));
+            json.put("message", responseDTO.getMessage());
+        } else {
+            json.put("data", JSON.toJSONString(object));
+            json.put("code", 200);
+            json.put("message", null);
+        }
         httpOutputMessage.getBody().write(json.toJSONString().getBytes());
     }
 

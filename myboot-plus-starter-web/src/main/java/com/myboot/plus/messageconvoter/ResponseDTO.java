@@ -1,4 +1,4 @@
-package com.myboot.plus.response;
+package com.myboot.plus.messageconvoter;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import lombok.Data;
  */
 @Data
 public class ResponseDTO<T>{
-    private int status;
+    private int code;
     private String message;
     private T data;
 }

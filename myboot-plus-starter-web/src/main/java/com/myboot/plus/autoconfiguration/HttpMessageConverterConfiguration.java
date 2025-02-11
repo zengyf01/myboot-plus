@@ -1,7 +1,7 @@
 package com.myboot.plus.autoconfiguration;
 
-import com.myboot.plus.response.Entity2ResponseConverter;
-import com.myboot.plus.response.String2ResponseConvoter;
+import com.myboot.plus.messageconvoter.Entity2ResponseConverter;
+import com.myboot.plus.messageconvoter.String2ResponseConvoter;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

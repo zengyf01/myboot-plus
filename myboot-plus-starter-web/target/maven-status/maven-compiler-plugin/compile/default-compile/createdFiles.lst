@@ -1,7 +1,9 @@
 com/myboot/plus/autoconfiguration/LogAspectAutoConfiguration.class
-com/myboot/plus/response/StringConvoter.class
+com/myboot/plus/returnhandler/ResponseEntityReturnValueHandler.class
+com/myboot/plus/messageconvoter/ResponseDTO.class
+com/myboot/plus/messageconvoter/Entity2ResponseConverter.class
+com/myboot/plus/config/MvcConfigurer.class
 com/myboot/plus/autoconfiguration/HttpMessageConverterConfiguration.class
-com/myboot/plus/response/SetWebMvcConfigurer.class
-com/myboot/plus/response/ResponseDTO.class
-com/myboot/plus/response/EntityResponseConverter.class
+com/myboot/plus/autoconfiguration/MvcConfigurerAutoConfiguration.class
+com/myboot/plus/messageconvoter/String2ResponseConvoter.class
 com/myboot/plus/log/HttpRequesetLogAspect.class
